@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <title>Agenda de contactos</title>
+  </head>
+  <body>
+    <h1>Agenda de contactos</h1>
+
+    <button class="editar">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+    </button>
+    
+    
+
+    <form id="formulario">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required>
+      <br>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" required>
+      <br>
+
+      <button type="submit">Agregar</button>
+    </form>
+
+    <ul id="lista-de-contactos"></ul>
+
+    <script src="script2.js"></script>
+  </body>
+</html>
